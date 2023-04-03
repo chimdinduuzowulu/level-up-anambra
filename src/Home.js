@@ -63,7 +63,7 @@ function Home() {
           <h1 className='text-[49.2442px] leading-[68.9419px] text-center tracking-normal font-bold text-white'>
             <CountUp
               start={0}
-              end={14000}
+              end={16000}
               duration={2.75}
               separator=', '
               // decimals={4}
