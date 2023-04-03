@@ -45,7 +45,7 @@ function Home() {
                 </h1>
                 <div className='mt-16 flex items-center justify-center gap-x-6'>
                   <a
-                    href='#'
+                    href='https://github.com/chimdinduuzowulu/level-up-anambra.git'
                     className="w-[245px] text-[29.1161px] leading-[40.7625px] text-center font-semibold tracking-normal text-[#215925] bg-white rounded-lg px-[21px] py-[14px] uppercase font-['Urbanist', sans-serif]"
                   >
                     Apply Here <span aria-hidden='true'>→</span>
