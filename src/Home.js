@@ -23,10 +23,10 @@ function Home() {
         <div className='w-full h-full bg-[rgba(53,88,61,0.85)]'>
           <header className='absolute inset-x-0 top-0 z-50 h-auto'>
             <nav className='grid place-content-left' aria-label='Global'>
-              <div className='flex lg:flex-1 h-[auto]'>
+              <div className='flex lg:flex-1 h-[auto] w-auto'>
                 <a href='#' className=''>
                   <img
-                    className='h-[175px] w-[auto]'
+                    className='h-[175px]  lg:h-[210px] w-[auto]'
                     src={image7}
                     alt='logo missing'
                   />
@@ -37,17 +37,17 @@ function Home() {
           <div className='relative isolate px-6 pt-[4] lg:px-8 grid place-content-center w-full h-full'>
             <div className='mx-auto max-w-6xl py-12 sm:py-48 lg:py-16'>
               <div className='text-center text-white'>
-                <h1 className='my-[23px] text-[29.1161px] leading-[40.7625px] font-bold tracking-tight text-white sm:text-[29.1161px] text-center tracking-normal'>
+                <h1 className='my-[23px] font-bold tracking-tight text-white sm:text-[29.1161px] lg:text-[16px] leading-[19px] text-center tracking-normal'>
                   LEVELUP ANAMBRA
                 </h1>
-                <h1 className="text-2xl font-light tracking-wider text-[#ffffff] sm:text-[51.9454px] leading-[72.7235px] text-center tracking-normal font-['Urbanist', sans-serif] font-light">
+                <h1 className="font-light text-[#ffffff] text-[49px] leading-[58px] text-center tracking-normal font-['Urbanist', sans-serif] font-[400]">
                   Digital Entrepreneurship Training for 20,000 ​Anambra Youths
                 </h1>
                 <div className='mt-16 flex items-center justify-center gap-x-6'>
                   <a
                     href='https://innovation.anambrastate.gov.ng/page/digital-skills-training-registration'
                     target='_blank'
-                    className="w-[245px] text-[29.1161px] leading-[40.7625px] text-center font-semibold tracking-normal text-[#215925] bg-white rounded-lg px-[21px] py-[14px] uppercase font-['Urbanist', sans-serif]"
+                    className="w-[245px] text-[29.1161px] leading-[40.7625px] text-center font-semibold tracking-normal text-[#215925] bg-white rounded-2xl px-[21px] py-[14px] uppercase font-['Urbanist', sans-serif]"
                   >
                     Apply Here <span aria-hidden='true'>→</span>
                   </a>
@@ -159,16 +159,16 @@ function Home() {
       {/* <!-- video section --> */}
       <div className='w-full sm:h-auto sm:my-[23px] lg:m-auto lg:h-[690px] grid grid-rows-1 lg:grid-cols-2 place-content-center lg:gap-4 font-light'>
         <div className='lg:h-[556px] grid place-content-center gap-4 mx-[25px] px-[20px]'>
-          <p className="text-[29.985px] leading-[41.979px] text-justify tracking-normal my-4 font-['Urbanist', sans-serif]">
+          <p className="text-[29.985px] leading-[41.979px] text-justify tracking-normal my-4 font-['Urbanist', sans-serif] font-[400]">
             About LevelUp Anambra
           </p>
-          <p className="text-[24.9878px] leading-[40px] lg:leading-[34.983px] sm:tracking-wide lg:tracking-wider text-start lg:text-justify font-['Urbanist', sans-serif]">
+          <p className="text-[16px] leading-[28px] lg:leading-[28px] sm:tracking-wide lg:tracking-wider text-start lg:text-justify font-['Urbanist', sans-serif] font-[7px]">
             LevelUp Anambra is designed to equip 20,000 ​youths in Anambra State
             with digital ​entrepreneurship skills in recognition of the
             ​shortfalls in digital skills for employment and other ​livelihood
             opportunities.
           </p>
-          <p className="mt-[24px] lg:mt-0 text-[24.9878px] leading-[34.983px] text-start lg:text-justify tracking-wide font-['Urbanist', sans-serif]">
+          <p className="mt-[24px] lg:mt-0 text-[16px] leading-[28px] text-start lg:text-justify tracking-wide font-['Urbanist', sans-serif] font-[7px]">
             The “Level Up Anambra” Initiative will be ​implemented virtually in
             cohorts. Each cohort will ​undergo 2-3 weeks of intensive hands-on
             training ​in the following courses; Web Design, Digital and ​Media
@@ -194,7 +194,7 @@ function Home() {
       </div>
       {/* <!--  --> */}
       <div className='w-full mt-[60px] lg:grid lg:place-content-center sm:grid-rows-1 lg:grid-cols-2 gap-4 sm:h-auto lg:h-[497px] font-light lg:my-[35px]'>
-        <div className="grid place-content-center text-[24.9878px] leading-[34.983px] text-center tracking-wide px-6 font-['Urbanist', sans-serif]">
+        <div className="grid place-content-center text-[24.9878px] leading-[34.983px] text-center tracking-wide px-6 font-['Urbanist', sans-serif] font-normal">
           LevelUp Anambra Program will target youth across all ​three senatorial
           zones; Anambra North, Central and ​South
         </div>
@@ -204,8 +204,8 @@ function Home() {
       </div>
       {/* <!--  --> */}
       <div className='w-[98%] grid grid-rows-1 lg:w-[94%] m-auto p-6 gap-4 font-font'>
-        <h1 className="text-[47.1034px] leading-[65.9447px] text-center tracking-wide font-['Urbanist', sans-serif] font-light">
-          We support digital <br />
+        <h1 className="text-[36px] leading-[54px] text-center tracking-wide font-['Urbanist', sans-serif] font-[300]">
+          We support digital
           ​entrepreneurs
         </h1>
         <p className="text-[19.2596px] leading-[29.9634px] text-center tracking-wide font-['Urbanist', sans-serif] font-light lg:px-12">
@@ -216,30 +216,30 @@ function Home() {
         <div className='grid place-content-center lg:grid-cols-3 gap-4 p-6'>
           <div className='grid place-content-center gap-4'>
             <img src={three} alt='not found' srcSet='' />
-            <h1 className='text-[31.7532px] leading-[44.4545px] text-center tracking-wide font-bold'>
+            <h1 className='text-[24px] leading-[28.8px] text-center tracking-wide font-bold'>
               Training
             </h1>
-            <p className="text-[19.2406px] leading-[26.9368px] text-center tracking-wide font-['Urbanist', sans-serif] font-light">
+            <p className="text-[16px] leading-[28px] text-center tracking-wide font-['Urbanist', sans-serif] font-light">
               Our curriculum is designed to help you build ​marketable skills
               required in the digital ​economy
             </p>
           </div>
           <div className='grid place-content-center gap-4'>
             <img src={two} alt='not found' srcSet='' />
-            <h1 className='text-[31.7532px] leading-[44.4545px] text-center tracking-wide font-bold'>
+            <h1 className='text-[24px] leading-[28.8px] text-center tracking-wide font-bold'>
               Certification
             </h1>
-            <p className="text-[19.2406px] leading-[26.9368px] text-center tracking-normal font-['Urbanist', sans-serif] font-light">
+            <p className="text-[16px] leading-[28px] text-center tracking-normal font-['Urbanist', sans-serif] font-light">
               Access to a Certification of Completion ​accredited by Microsoft
               and Wootlab to boost your profile.
             </p>
           </div>
           <div className='grid place-content-center gap-4'>
             <img src={one} alt='not found' srcSet='' />
-            <h1 className='text-[31.7532px] leading-[44.4545px] text-center tracking-normal font-bold'>
+            <h1 className='text-[24px] leading-[28.8px]  text-center tracking-normal font-bold'>
               Mentorship
             </h1>
-            <p className="text-[19.2406px] leading-[26.9368px] text-center tracking-normal font-['Urbanist', sans-serif] font-light">
+            <p className="text-[16px] leading-[28px] text-center tracking-normal font-['Urbanist', sans-serif] font-light">
               Access to a pool of mentors and business ​experts to provide
               necessary business and ​career mentorship.
             </p>
@@ -258,16 +258,16 @@ function Home() {
       </div>
       {/* <!-- Partners --> */}
       <div className='w-full flex flex-wrap justify-center items-center mt-16 lg:grid place-content-center lg:grid-rows-1 lg:gap-4 lg:w-[70%] m-auto lg:mt-[210px] font-bold'>
-        <h1 className='text-[31.7532px] leading-[44.4545px] text-center tracking-wide'>
+        <h1 className='text-[36px] leading-[50px] text-center tracking-normal'>
           Our Partners
         </h1>
         <div className='flex flex-wrap justify-center lg:grid lg:grid-cols-3 lg:place-content-center'>
-          <img src={four} alt='' className='h-[150px] lg:h-[320px]' />
-          <img src={six} alt='missing' className='h-[150px] lg:h-[320px]' />
+          <img src={four} alt='' className='h-[150px] lg:h-[220px]' />
+          <img src={six} alt='missing' className='h-[150px] lg:h-[220px]' />
           <img
             src={Microsoft}
             alt='missing'
-            className='h-[150px] lg:h-[320px] w-auto'
+            className='h-[130px] lg:h-[220px] w-auto'
           />
         </div>
       </div>
